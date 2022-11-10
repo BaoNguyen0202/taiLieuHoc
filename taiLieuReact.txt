@@ -1,0 +1,11 @@
+ -State của một component là dữ liệu mà chỉ có component đó sử dụng và quản lý.
+ -Props là cách để truyền dữ liệu từ component cha xuống component con và chỉ
+component cha mới có thể thay đổi giá trị được.
+-----------
+-Hook
++vd:const [count, setCount] = useState(0)
++useEffect(() => {
+}, []);
+++(có [] chỉ chạy đúng một lần)
+++(khong co [] chạy mỗi khi component được render)
+++()return () => {} chỉ render 1 lần bắt đầu
